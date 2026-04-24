@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MahasiswaDemo {
+public class MahasiswaDemo02 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         StackTugasMahasiswa02 stack = new StackTugasMahasiswa02(5);
