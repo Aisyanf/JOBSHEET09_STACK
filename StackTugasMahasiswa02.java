@@ -60,4 +60,12 @@ public class StackTugasMahasiswa02 {
         }
         System.out.println("");
     }
+
+    Mahasiswa02 peekbottom() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            return null;
+        }
+    }
 }
